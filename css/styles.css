@@ -46,21 +46,45 @@ nav .wrapper a[href*="page1.html"] {
   background-color: red;
   }
 /* Exercice 11 */
-
+.exercice11 ul{
+  border: 3px solid red;
+  }
 /* Exercice 12 */
-
+.exercice12 ul ul{
+  border: 3px solid red;
+  }
 /* Exercice 13 */
-
+.exercice13 img[src$=".jpg"] {
+  border: 3px solid red;
+}
 /* Exercice 14 */
-
+nav ul li:hover {
+   background-color: #BF2A2A;
+  border-bottom: 3px solid black;
+  color: black;
+}
 /* Exercice 15 */
+h2:hover{
+  background-color: black;
+  color: white;
+}
 
+p:hover{
+  background-color: grey;
+  color: white;
+}
 /* Exercice 16 */
-
+.exercice16 p:not([lang="fr"]) {
+  color: red;
+  }
 /* Exercice 17 */
-
+.exercice17 input:checked + label {
+  color: red;
+}
 /* Exercice 18 */
-
+header h1 .word .char:last-child{
+  color: #640101;
+}
 /*-------------------------------------------
 -
 -   Ne rien modifier dans le CSS qui suit
