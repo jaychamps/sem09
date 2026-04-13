@@ -26,15 +26,25 @@ nav .wrapper a[href*="page1.html"] {
   margin-left: 5px;
 }
 /* Exercice 06 */
-
+.exercice06 ol li:nth-child(even){
+  background-color: red;
+}
 /* Exercice 07 */
-
+.exercice07 ol li:nth-child(odd){
+  background-color: red;
+  }
 /* Exercice 08 */
-
+.exercice08 ol li:nth-child(3n){
+  background-color: red;
+  }
 /* Exercice 09 */
-
+.exercice09 ol li:nth-last-child(2){
+  background-color: red;
+  }
 /* Exercice 10 */
-
+.exercice10 ol li:nth-child(n + 14):nth-child(-n + 23){
+  background-color: red;
+  }
 /* Exercice 11 */
 
 /* Exercice 12 */
